@@ -184,7 +184,7 @@ function getSomeMonthDays(year, month) {
   }
   return ''
 }
-export default {
+export {
   getDateArr,
   dateFormat,
   getDate,

@@ -33,8 +33,4 @@ const fileToBase64 = (file) => {
   }
 }
 
-export default {
-  base64ToBlob,
-  blobToFile,
-  fileToBase64
-}
+export { base64ToBlob, blobToFile, fileToBase64 }

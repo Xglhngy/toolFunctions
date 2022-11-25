@@ -311,7 +311,7 @@ function validatenull(val) {
   return false
 }
 
-export default {
+export {
   validPassword,
   isEmail,
   isMobile,

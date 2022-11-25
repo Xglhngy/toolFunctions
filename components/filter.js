@@ -54,10 +54,4 @@ function uniqueArr(arr) {
   return Array.from(new Set(arr))
 }
 
-export default {
-  secrecyMobile,
-  getParams,
-  getByteLen,
-  getQueryObject,
-  uniqueArr
-}
+export { secrecyMobile, getParams, getByteLen, getQueryObject, uniqueArr }

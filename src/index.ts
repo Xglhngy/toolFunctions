@@ -1,3 +1,4 @@
+
 // 返回传入的日期是今年的第几天,如果不传参数则默认是当前日期
 export const dayOfYear = (date?: Date | string): number => {
   let formatDate = null;
@@ -16,16 +17,11 @@ export const dayOfYear = (date?: Date | string): number => {
   return Math.floor(timeGap / 1000 / 60 / 60 / 24);
 };
 
-
-
-
-
-import * as date from './components/date'
-import * as file from './components/file'
-import * as check from './components/check'
-import * as filter from './components/filter'
-
-export const xyd_date = { ...date }
+import * as date from '../components/date'
+import * as file from '../components/file'
+import * as check from '../components/check'
+import * as filter from '../components/filter'
+export const xyd_date = {...date}
 export const xyd_file = { ...file }
 export const xyd_check = { ...check }
 export const xyd_filter = { ...filter }
